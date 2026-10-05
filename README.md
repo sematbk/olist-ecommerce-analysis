@@ -14,7 +14,7 @@ This project was built as a self-directed portfolio project to demonstrate pract
 
 ```
 ├── olist.db                     # SQLite database (9 CSV tables imported)
-├── analiz.sql                   # All SQL queries, organized in 4 parts
+├── analysis.sql                   # All SQL queries, organized in 4 parts
 ├── rapor.py                     # Python script: re-runs 3 key queries and
 │                                 # builds an Excel report + a trend chart
 ├── olist_report.xlsx            # Output: 3-sheet Excel report
@@ -52,7 +52,7 @@ This project was built as a self-directed portfolio project to demonstrate pract
 ## How to reproduce
 
 1. Download the dataset from Kaggle and import the CSVs into a SQLite database named `olist.db` (table names should match the original CSV file names).
-2. Run the queries in `analiz.sql` directly in a SQL client (e.g., DB Browser for SQLite), or
+2. Run the queries in `analysis.sql` directly in a SQL client (e.g., DB Browser for SQLite), or
 3. Run `python rapor.py` from the project folder to regenerate `olist_report.xlsx` and `monthly_revenue_chart.png` automatically.
 
 ## Possible next steps
